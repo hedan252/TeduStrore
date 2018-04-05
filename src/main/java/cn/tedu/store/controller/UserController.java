@@ -529,6 +529,7 @@ public class UserController
 		ResponseResult<Void> rr=new ResponseResult<Void>();
 		rr.setState(ResponseResult.STATE_OK);
 		rr.setMessage("上载成功");
+		rr.setMessage("成功");
 		return rr;
 	}
 	
